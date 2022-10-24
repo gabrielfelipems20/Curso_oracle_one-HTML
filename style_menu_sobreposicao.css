@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Prompt&display=swap');
+
+:root{
+    --menu-bg-color: #08012e;
+    --color-write: #fcfcfc;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Prompt', sans-serif;
+}
+
+/*------------------------------------------------------------------HEADER-----------------------------------------------------------------*/
+
+
+
+#header_nav_menu{
+    display: flex;
+    height: 50px;
+    width: 100%;
+    background-color: var(--menu-bg-color);
+}
+
+#head-menu-sobreposiçao{
+    display: flex;
+    width: 100px;
+    min-width: 100px;
+    height: 100%;
+    align-items: center;
+    cursor: pointer;
+}
+
+#head-menu-sobreposiçao svg{
+    margin-left: 20px;
+    height: 100%;
+}
+
+#head-menu-sobreposiçao span{
+    display: flex;
+    height: 100%;
+    margin-left: 10px;
+    align-items: center;
+    color: var(--color-write);
+}
+
+
+
+/*------------------------------------------------------------------------NAV-------------------------------------------------------------*/
+
+
+
+#nav_menu{
+    width: 330px;
+    height: 100vh;
+    margin: 0;
+    overflow: auto;
+    padding: 0;
+    list-style: none;
+}
+
+#nav_menu ul li{
+    display: block;
+}
+
+#nav_menu ul li a{
+    width: 100%;
+    display: inline-block;
+    padding: 21px;
+    font-size: 16px;
+    text-decoration: none;
+    background-color: var(--menu-bg-color);
+    color: var(--color-write);
+}
+
+#nav_menu ul li a:hover{
+    background-color: var(--color-write);
+    color: var(--menu-bg-color);
+}
+
+.menu_icon{
+    width: 100%;
+    display: inline-block;
+    background-color: var(--menu-bg-color);
+    cursor: pointer;
+}
